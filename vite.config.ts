@@ -4,5 +4,5 @@ import express from 'vite3-plugin-express'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),express('src/server')]
+  plugins: [react(), express('src/server')]
 })
